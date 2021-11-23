@@ -1,0 +1,34 @@
+:orphan:
+
+:py:mod:`anchor_python_utilities.fixture.call`
+==============================================
+
+.. py:module:: anchor_python_utilities.fixture.call
+
+.. autoapi-nested-parse::
+
+   Calling a module for testing with particular arguments.
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   anchor_python_utilities.fixture.call.call_with_arguments
+
+
+
+.. py:function:: call_with_arguments(module: types.ModuleType, arguments: List[str]) -> None
+
+   Calls a module with arguments like they were passed on the command-line.
+
+   :param module: a module that must have a :code:`main()` function.
+   :param arguments: the arguments that are passed on the command-line (ignoring any initial program-name).
+
+

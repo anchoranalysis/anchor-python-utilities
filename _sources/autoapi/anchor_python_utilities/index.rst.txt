@@ -1,0 +1,24 @@
+:py:mod:`anchor_python_utilities`
+=================================
+
+.. py:module:: anchor_python_utilities
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   file/index.rst
+   fixture/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: dist_name
+   :annotation: = anchor-python-utilities
+
+   
+
