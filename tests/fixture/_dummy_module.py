@@ -1,7 +1,6 @@
 """A dummy module used for testing, and determining if the main function was called."""
 import sys
-from typing import Optional, List
-
+from typing import List, Optional
 
 last_arguments: Optional[List[str]] = None
 """Used to track whether main has been called or not."""
