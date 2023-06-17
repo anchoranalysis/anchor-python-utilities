@@ -3,9 +3,10 @@ import os
 
 
 def path_same_directory(path_file: str, filename: str) -> str:
-    """A path to a file that exists in the same directory as :code:`executing_file_path`.
+    """A path to a file existing in the same directory as the executing script.
 
-    It is often convenient to call with :const:`__file__` as the first parameter, to locate a file on the file-system.
+    It is often convenient to call with :const:`__file__` as the first
+    parameter, in order to locate a file on the file-system.
 
     Args:
         path_file: a path to the file that exists in some directory.
