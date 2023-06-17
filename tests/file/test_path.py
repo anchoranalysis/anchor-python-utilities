@@ -1,7 +1,8 @@
 """Tests :mod:`file.path`"""
 
-from anchor_python_utilities import file
 import os
+
+from anchor_python_utilities import file
 
 
 def test_path_same_directory() -> None:

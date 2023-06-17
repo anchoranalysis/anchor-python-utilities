@@ -1,8 +1,8 @@
 """Tests :mod:`fixture.call`"""
 
 from anchor_python_utilities import fixture
-from . import _dummy_module as dummy_module
 
+from . import _dummy_module as dummy_module
 
 _ARGUMENTS = ["arg_first", "arg_second"]
 """The arguments to pass to the module."""
